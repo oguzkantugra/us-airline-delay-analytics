@@ -1,4 +1,3 @@
-# data-analytics-portfolio
 # ✈️ US Airline Operational Performance & Delay Analytics
 
 An end-to-end Business Intelligence project analyzing flight punctuality, delay root causes, airport congestion bottlenecks, and in-flight delay recovery dynamics across major US carriers.

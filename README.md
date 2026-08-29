@@ -1,4 +1,3 @@
-# data-analytics-portfolio
 # ✈️ US Airline Operational Performance & Delay Analytics
 
 An end-to-end Business Intelligence project analyzing flight punctuality, delay root causes, airport congestion bottlenecks, and in-flight delay recovery dynamics across major US carriers.
@@ -45,4 +44,15 @@ An end-to-end Business Intelligence project analyzing flight punctuality, delay 
 * `airline_delay_queries.sql`: Complete SQL pipeline and data transformations for all 5 analyses.
 * `airline_delay_dashboard.twbx`: Packaged Tableau workbook containing all sheets, containers, and dashboard layouts.
 * `dashboard_preview.png`: Full executive dashboard preview for direct visual inspection.
-* `analysis_*.csv`: Cleaned analytical datasets feeding into the visualization layers.
+* `1_otp_benchmarking.csv` - Punctuality metrics and 80% OTP threshold evaluation data.
+* `2_delay_root_cause.csv` - Carrier, Late Aircraft, NAS, Weather, and Security delay breakdown.
+* `3_taxi_out_congestion.csv` - Hub airport taxi-out durations and departure delay metrics.
+* `4_in_flight_recovery.csv` - Airborne delay reduction efficiency per airline.
+* `5_hourly_delay_accumulation.csv` - Departure hour traffic volume vs. average delay progression.
+
+---
+
+* ## 💾 Data Source & Preprocessing
+- **Source:** US Bureau of Transportation Statistics (BTS) / Kaggle Flight Delay Dataset (~200MB+ raw records).
+- **Processing:** Raw operational records were cleaned and standardized via SQL views (`view_clean_flights`), filtering invalid records, null cancellations, and computing recovery metrics.
+- **Datasets:** Aggregated analytical datasets used for visualization are stored in the root directory (`1_otp_benchmarking.csv` to `5_hourly_delay_accumulation.csv`).

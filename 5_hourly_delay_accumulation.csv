@@ -1,0 +1,7 @@
+"time_window","total_flights","otp_pct","avg_delay_mins","total_cancellations","cancellation_rate_pct"
+"1. Early Morning (05-08)",847019,89.49,7.08,16245,1.92
+"2. Morning (09-12)",928471,82.51,10.87,14755,1.59
+"3. Afternoon (13-16)",903997,76.02,15.19,16351,1.81
+"4. Evening (17-20)",856692,69.87,19.19,19694,2.30
+"5. Night (21-23)",228624,71.43,16.94,4787,2.09
+"6. Overnight (00-04)",15197,81.83,11.28,137,0.90
